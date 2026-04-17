@@ -1,0 +1,604 @@
+@media (max-width: 768px) {
+
+  .image-row {
+    flex-direction: column;
+  }
+
+ .image-row img {
+  height: clamp(220px, 40vw, 520px);
+  object-fit: cover;
+}
+
+  .middle-box {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .intro-box {
+    width: 92%;
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 18px;
+
+    .order-button {
+    font-size: 20px;
+    padding: 12px 18px;
+    white-space: normal; /* prevents overflow */
+  }
+}
+}
+
+
+h1 {
+  text-align: center;
+  color: rgb(223, 31, 31);
+  font-size: 90px;
+  font-family: "Sofia", sans-serif;
+  text-shadow: 3px 3px 3px #110808;
+}
+
+.intro-box p {
+    font-size: clamp(16px, 2.5vw, 40px);
+  line-height: 1.4;
+}
+
+.intro-box {
+  border: 3px solid black;
+  padding: 20px;
+  width: 85%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: white;
+}
+
+.image-row {
+   display: flex;
+  width: 100%;
+  gap: 0;
+}
+
+
+.image-row img {
+  flex: 1;
+  height: 520px;
+  object-fit: cover;
+  display: block;
+
+}
+
+.middle-box {
+ flex: 1;
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1.two {
+  text-align: center;
+  color: rgb(223, 31, 31);
+  font-size: 120px;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 3px 3px 3px #110808;
+}
+
+
+h1.specials {
+  text-align: center;
+  color: rgba(155, 96, 20, 0.747);
+  font-size: 125px;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 3px 3px 3px #110808;
+}
+
+.font {
+  color: rgb(88, 86, 126);
+  font-family: "Roboto Slab", serif;
+  text-shadow: 2px 0px 0px #11080e;
+
+  font-size: 35px;
+}
+
+.fontNot {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto Slab", serif;
+  text-shadow: 1px 1px 1px rgb(18, 12, 124);
+
+  font-size: 20px;
+
+}
+
+body {
+  margin: 0;
+}
+
+#photos {
+  align-items: center;
+}
+
+.entirePage {
+
+  background-size: contain;
+    padding-top: 0;
+
+
+}
+
+.entirePage2 {
+
+  background: #050803;
+  box-shadow: inset 11px 11px 22px #223e13,
+    inset -11px -11px 22px #5aa433;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(18, 12, 124);
+  font-size: 70px;
+  font-family: "Times", sans-serif;
+  font-weight: bold;
+  margin: 0;
+
+}
+
+h2.stylish {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Slab", serif;
+  text-shadow: 2px 2px 1px rgb(189, 31, 31);
+
+  font-size: 65px;
+
+}
+
+h2.two {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 3px 3px 3px #110808;
+}
+
+h2.twoWhite {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 90px;
+  font-family: "Roboto Slab", serif;
+}
+
+
+.bolded {
+  font-weight: bold;
+}
+
+h2.myFeed {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 3px 3px 3px #110808;
+
+}
+
+
+h2.myFeed2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
+
+
+
+}
+h2.myFeed2New {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+h2.myFeed3 {
+  text-align: center;
+  color: rgb(240, 119, 238);
+  font-size: 65px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 3px 3px 3px #110808;
+text-decoration: underline;
+
+
+}
+
+h2.myFeed3Black {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline;
+
+
+
+}
+.containerNovember {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  width: 30%; /* Set the width of the container (you can adjust as needed) */
+  max-width: 500px; /* Max width to ensure the container doesn’t stretch too wide */
+  background-color: black; /* Set background color to black (the rectangle) */
+  color: white; /* Set text color to white for contrast */
+  text-align: center; /* Center the text horizontally */
+  padding: 20px; /* Padding inside the black rectangle for spacing */
+  border-radius: 10px; /* Optional: Rounded corners for the rectangle */
+  margin: 0 auto; /* Centers the container horizontally on the page */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for a subtle 3D effect */
+}
+
+.newBackground {
+  background-image: url("newPhotos/BrazilBackground.jpg");
+}
+
+p.myFeed2 {
+
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+
+}
+
+h2.Specials {
+  text-align: center;
+  color: rgba(155, 25, 20, 0.932);
+  font-family: "Roboto Slab", serif;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  font-size: 65px;
+}
+
+h2.happyHour {
+  text-align: center;
+  color: rgb(211, 113, 209);
+  font-size: 85px;
+  font-family: "Times", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-family: "Times", sans-serif;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+.newBox {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Times", sans-serif;
+  background-color: rgb(19, 177, 19); /* Your desired color */
+  padding: 20px; /* Adjust as needed */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: "Times", sans-serif;
+}
+
+a {
+  text-align: center;
+  color: rgb(223, 31, 31);
+  font-size: 16px;
+  font-family: "Times", sans-serif;
+  font-weight: bold;
+
+}
+
+
+.top-container {
+  display: flex;
+  justify-content: center; /* Centers the container horizontally */
+  align-items: center; /* Centers the container vertically */
+}
+
+.top {
+  width: 100%;
+  background-color: rgba(235, 35, 35, 0.747);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 0;
+  margin: 0;
+}
+
+.topBig {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 0;   /* remove rounded look */
+}
+
+h2.top {
+  font-size: 30px;
+  color: rgb(255, 255, 255)
+}
+
+.card-img-top {
+   width: 30%;
+  height: 520px;
+  object-fit: cover;
+}
+
+.middle-box {
+  width: 30%;
+  height: 520px;
+  background-color: transparent; /* or white/black if you want visible */
+}
+
+.card {
+  background-color: rgb(0, 0, 0); /* Change the background color to light blue */
+}
+
+.card-img-top2 {
+  width: 100%;
+  height: 35vw;
+  object-fit: cover;
+}
+
+a.middle {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+
+}
+
+
+container {
+
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* space between items */
+
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  /* Additional styling properties */
+   color: #ffffff; 
+  /* line-height: 1.5; */
+}
+
+html {
+  background-color: rgb(122, 117, 117);
+}
+
+
+.order-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+
+  font-size: clamp(18px, 4vw, 55px);
+  line-height: 1.2;
+
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border-radius: 6px;
+
+  text-align: center;
+  white-space: nowrap;
+}
+
+.order-button:hover {
+  background-color: rgba(235, 35, 35, 0.747);
+  color: white;
+}
+
+.order-button2 {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+
+  font-size: clamp(18px, 4vw, 55px);
+  line-height: 1.2;
+
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border-radius: 6px;
+
+  text-align: center;
+  white-space: nowrap;
+}
+.order-button2:hover {
+  background-color: rgba(81, 46, 235, 0.699);
+  color: white;
+}
+
+
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+#myBack {
+  width: 100%;
+  display: block;
+  background-size: cover;        /* IMPORTANT: makes it fill horizontally */
+  background-position: center;
+  padding: 10px 0;
+  border-top: -100px solid transparent; 
+    overflow: hidden;
+
+
+}
+h6 {
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+  font-size: 64px;
+  color: rgb(255, 233, 233);
+}
+.hours-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  background-position: center; /* Adjust to display the lower part */
+  border-radius: 12px;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+}
+
+.specials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  background-position: center; /* Adjust to display the lower part */
+  border-radius: 12px;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+}
+
+.specials-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  background-position: center; /* Adjust to display the lower part */
+  border-radius: 12px;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+}
+
+
+.hours-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(18, 12, 124);
+  border-radius: 8px;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+}
+
+.hours-heading {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hours-day {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.hours-day span {
+  font-weight: bold;
+}
+
+.hours-time {
+  color: #777;
+}
+
+.single-line {
+  white-space: nowrap;
+}
+
+.hours-text {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: "Times", sans-serif;
+  text-shadow: 1px 1px 1px #000000;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.hours-header {
+  color: rgb(255, 255, 255);
+  font-size: 75px;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 1px 1px 1px #000000;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+div.grillBackground {
+  background-image: 'photos/fire.png';
+  background-size: contain;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#navHead {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#menuTopStyle {
+  color: rgb(255, 255, 255);
+  font-size: 44px;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 1px 1px 1px #000000;
+  font-weight: bold;
+  text-align: center;
+
+
+
+}
+#navHead1 {
+  color: rgb(223, 14, 14);
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 1px 1px 1px #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav.navBackground{
+  background-color: rgb(255, 255, 255);
+}
