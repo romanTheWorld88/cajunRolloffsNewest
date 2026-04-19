@@ -25,7 +25,7 @@
     padding: 18px;
 
     .order-button {
-    font-size: 20px;
+    font-size: 10px;
     padding: 12px 18px;
     white-space: normal; /* prevents overflow */
   }
@@ -299,13 +299,13 @@ h3 {
 p {
   text-align: center;
   color: rgb(0, 0, 0);
-  font-size: 15px;
+  font-size: 10px;
   font-family: "Times", sans-serif;
 }
 
 a {
   text-align: center;
-  color: rgb(223, 31, 31);
+  color: rgba(255, 0, 0, 0.568);
   font-size: 16px;
   font-family: "Times", sans-serif;
   font-weight: bold;
@@ -321,13 +321,12 @@ a {
 
 .top {
   width: 100%;
-  background-color: rgba(235, 35, 35, 0.747);
+  background-color: rgb(122, 11, 11);
   color: white;
 
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 10px 0;
   margin: 0;
 }
@@ -338,12 +337,39 @@ a {
   color: white;
   padding: 10px 0;
   margin: 0;
+  line-height: 1;
+    margin-bottom: -10px; /* pull next line up */
+
   border-radius: 0;   /* remove rounded look */
+   font-family: "Katibeh", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 155px;
+}
+
+.topBig2 {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 0px 0;
+  margin: 0;
+  line-height: 1;
+  border-radius: 0;   /* remove rounded look */
+   font-family: "Katibeh", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  padding-bottom: 20px;
+
 }
 
 h2.top {
   font-size: 30px;
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
 }
 
 .card-img-top {
@@ -423,8 +449,54 @@ html {
   white-space: nowrap;
 }
 
+.order-button-page {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+
+  font-size: clamp(18px, 4vw, 55px);
+  line-height: 1.2;
+
+  text-decoration: none;
+  background-color: rgb(122, 11, 11);
+  color: #fff;
+  border-radius: 6px;
+
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btn {
+  background-color: rgb(122, 11, 11);
+  color: #fff;
+  color: white;
+  border: none; /* optional */
+  padding: 10px 20px; /* optional for spacing */
+  cursor: pointer; /* optional for UX */
+  font-size: 30px;
+}
+
+.order-button-mission {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+
+  font-size: clamp(18px, 4vw, 55px);
+  line-height: 1.2;
+
+  text-decoration: none;
+  background-color: rgb(122, 11, 11);
+  color: #fff;
+  border-radius: 6px;
+
+  text-align: center;
+  white-space: nowrap;
+}
+
 .order-button:hover {
-  background-color: rgba(235, 35, 35, 0.747);
+  background-color: rgb(122, 11, 11);
   color: white;
 }
 
